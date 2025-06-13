@@ -1,0 +1,2 @@
+USE gestion_heures_supp;
+ALTER TABLE clients ADD COLUMN IF NOT EXISTS actif TINYINT(1) NOT NULL DEFAULT 1; 
